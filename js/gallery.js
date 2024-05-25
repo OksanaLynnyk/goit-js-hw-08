@@ -91,7 +91,7 @@ function onClick(evt) {
   }
 
   const instance = basicLightbox.create(`
-  <div><img class ="originalImg" src="${target.dataset.source}" alt="${target.alt}"></div>
+  <div><img class ="modalImg" src="${target.dataset.source}" alt="${target.alt}"></div>
   `);
   instance.show();
 }

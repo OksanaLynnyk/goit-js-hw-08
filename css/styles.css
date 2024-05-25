@@ -1,0 +1,47 @@
+body {
+    margin: auto;
+
+
+    width: 1440px;
+    height: 696px;
+   
+}
+
+ul { 
+    margin: 0;
+    margin-top: 28px;
+    height: 648px;
+
+    
+    padding: 24px 156px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;  
+    align-items: center;
+}
+
+.gallery-image {
+    display: block;
+    width: 360px;
+    height: 200px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    transition: transform 250ms ease-in-out;
+}
+
+a:hover, a:focus {
+    transform: scale(1.04);
+}
+
+.originalImg {
+    width: 1112px;
+    height: 640px;
+    margin: 0 auto;
+}

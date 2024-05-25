@@ -68,7 +68,7 @@ const images = [
 const gallery = document.querySelector('.gallery');
 
 const markup = images.reduce((acc, { preview, original, description }) => acc + 
-`<li class="gallery-item">
+`<li class="gallery-item js-target">
   <a class="gallery-link js-target" href="${original}">
     <img
       class="gallery-image js-target"
